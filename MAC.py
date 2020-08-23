@@ -50,7 +50,7 @@ class Mac:
                 random.randint(0x00,0x1f), 
                 random.randint(0x00,0x1f),
                 random.randint(0x00, 0x7f),
-	            random.randint(0x00, 0xff),
+	        random.randint(0x00, 0xff),
                 random.randint(0x00, 0xff) ]
         self.mac = ':'.join(map(lambda x: "%02x" % x, self.random))
 
