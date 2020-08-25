@@ -1,5 +1,5 @@
 ## MAC
-MAC es un script que realiza el cambio de la direccion mac de interfaces de red.
+MAC es un script desarrollado en Python que realiza el cambio de la dirección mac de su interfaz de red.
 
 ### Ejecución
 NOTA: Para su ejecución es necesario estar logueados como ROOT.
