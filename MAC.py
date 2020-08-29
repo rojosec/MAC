@@ -1,5 +1,6 @@
-#!/bin/python
+#!/bin/python3
 #Autor: @ErickWhiteHat
+
 # COLORES
 Black="\033[0;30m"        
 Red="\033[0;31m"          
