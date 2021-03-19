@@ -46,7 +46,7 @@ class Mac:
         return self.opcion
         
     
-    def GenerandoMAC(self):
+    def generandoMAC(self):
         self.random = [ 0x00, 
                 random.randint(0x00,0x1f), 
                 random.randint(0x00,0x1f),
@@ -64,13 +64,13 @@ class Mac:
         subprocess.run(['ifconfig',self.interfaz,'up'])
 
     
-    def NuevaMAC(self):
+    def nuevaMAC(self):
         print(Yellow + "[i]"+ end,"Nueva MAC: ",self.mac)
         print("\n")
 
 
 cambio = Mac() 
 cambio.Parametros()
-cambio.GenerandoMAC()
+cambio.generandoMAC()
 cambio.Cambio()
-cambio.NuevaMAC()
+cambio.nuevaMAC()
